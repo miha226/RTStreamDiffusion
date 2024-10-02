@@ -5,9 +5,9 @@ export default defineConfig({
   plugins: [sveltekit()],
   server: {
     proxy: {
-      '/api': 'http://localhost:7860',
+      '/api': 'http://20.172.32.213:8080',
       '/api/ws': {
-        target: 'ws://localhost:7860',
+        target: 'ws://20.172.32.213:8080',
         ws: true
       }
     },

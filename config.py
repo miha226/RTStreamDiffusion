@@ -33,7 +33,7 @@ ENGINE_DIR = os.environ.get("ENGINE_DIR", "engines")
 ACCELERATION = os.environ.get("ACCELERATION", "tensorrt")
 
 default_host = os.getenv("HOST", "0.0.0.0")
-default_port = int(os.getenv("PORT", "7860"))
+default_port = int(os.getenv("PORT", "8080"))
 default_mode = os.getenv("MODE", "default")
 
 parser = argparse.ArgumentParser(description="Run the app")
